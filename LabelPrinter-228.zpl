@@ -1,0 +1,10 @@
+^XA
+^ND2,P,192.168.15.228,255.255.252.0,192.168.12.1
+^NBC
+^NC1
+^NPP
+^NNLabelPrinter-228
+^XZ
+^XA
+^JUS
+^XZ
