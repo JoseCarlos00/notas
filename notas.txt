@@ -1,13 +1,13 @@
-Comandos PowerShell:
+# Comandos PowerShell:
 
-Para obtener el nombre del producto del equipo: 
+# Para obtener el nombre del producto del equipo: 
 Get-CimInstance -ClassName Win32_ComputerSystem | Select-Object -ExpandProperty Name
 
 
-Para obtener el número de serie del BIOS:
+# Para obtener el número de serie del BIOS:
 Get-CimInstance -ClassName Win32_BIOS | Select-Object -ExpandProperty SerialNumber
 
 
-Para obtener el modelo del equipo:
+# Para obtener el modelo del equipo:
 Get-CimInstance -ClassName Win32_ComputerSystem | Select-Object -ExpandProperty Model
 
